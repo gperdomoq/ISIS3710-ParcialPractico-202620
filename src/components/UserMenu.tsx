@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { Link } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 import { getSession, clearSession } from "@/services/session";
 
 // Este componente solo se carga en el navegador (ver Header), por eso puede leer el localStorage.
